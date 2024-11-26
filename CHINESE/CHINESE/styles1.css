@@ -1,0 +1,90 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif; /* Sets a default font for the entire page */
+    line-height: 1.6; /* Adds some space between lines of text */
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container to hold the content */
+.container {
+    width: 80%;
+    margin: 0 auto; /* Centers the container */
+    padding: 20px;
+    background-color: #fff; /* White background for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+/* Style for the main heading (h2) */
+h2 {
+    text-decoration: underline; /* Underlines the heading */
+    color: #2E8B57; /* Dark green font color */
+    font-size: 2em; /* Increases font size */
+    margin-bottom: 20px; /* Adds some space below the heading */
+}
+
+/* Style for the sub-headings (h3) */
+h3 {
+    text-decoration: underline; /* Underlines the sub-heading */
+    color: #FF6347; /* Tomato red font color */
+    font-size: 1.5em; /* Increases font size */
+    margin-top: 30px; /* Adds space above the sub-heading */
+    margin-bottom: 10px; /* Adds space below the sub-heading */
+}
+
+/* Style for the sub-sub-headings (h4) */
+h4 {
+    text-decoration: underline; /* Underlines the sub-sub-heading */
+    color: #4682B4; /* Steel blue font color */
+    font-size: 1.2em; /* Slightly smaller font size */
+    margin-bottom: 10px; /* Adds space below the sub-sub-heading */
+}
+
+/* Styling for list of ingredients and instructions */
+ul, ol {
+    margin-left: 20px; /* Adds indentation to the lists */
+    margin-bottom: 20px; /* Adds space after the list */
+}
+
+/* Styling for the list items */
+ul li, ol li {
+    margin-bottom: 10px; /* Adds space between list items */
+    font-size: 1em; /* Standard font size for list items */
+}
+
+/* Style for images */
+.img {
+    width: 100%; /* Makes images responsive */
+    height: auto; /* Maintains aspect ratio */
+    max-width: 600px; /* Limits the maximum width */
+    display: block;
+    margin: 0 auto 20px; /* Centers the image and adds space below */
+}
+
+/* Add some spacing between sections */
+h2, h3, h4, ul, ol {
+    margin-bottom: 20px; /* Adds space between sections */
+}
+
+/* Styling for the links (if any) */
+a {
+    text-decoration: none; /* Removes the underline from links */
+    color: #4682B4; /* Blue color for links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+    color: #FF6347; /* Change color when hovering */
+}
+.img{
+   
+    width:20%;
+    
+}
+.contain{
+    text-align: center;
+    padding:20px;
+
+}
